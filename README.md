@@ -1,17 +1,26 @@
-# student_local_db_app
+# Student Local Database App
 
-A new Flutter project.
+A Flutter application developed for **Laboratory Activity 5** that demonstrates local data persistence and database management. 
 
-## Getting Started
+## 📱 About The App
 
-This project is a starting point for a Flutter application.
+This application manages student data using a local SQLite database. It showcases complete CRUD (Create, Read, Update, Delete) capabilities alongside user session management, serving as a comprehensive example of local storage in a Flutter environment.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **SQLite Database Integration:** Uses `sqflite` to store and securely manage student records locally on the device.
+- **Full CRUD Operations:**
+  - **Create:** Insert new student records into the database.
+  - **Read:** Retrieve and display a dynamic list of all saved students.
+  - **Update:** Modify existing student information.
+  - **Delete:** Remove specific student records from the database.
+- **Login Persistence:** Utilizes `shared_preferences` to remember the user's login state across app restarts, ensuring they don't have to log in repeatedly.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technology Stack
+
+- [**Flutter & Dart**](https://flutter.dev/) - UI Framework and Language
+- [**sqflite**](https://pub.dev/packages/sqflite) - SQLite plugin for Flutter
+- [**shared_preferences**](https://pub.dev/packages/shared_preferences) - Persistent storage for simple data like session states
+
+---
+*Created for Setenta Laboratory Activity 5*
